@@ -14,8 +14,17 @@ body {
 	background-position: 30% 30%;
 	padding-top: 100px;
 	padding-left: 250px;
-	padding-right: 250px;
+	padding-right: 50px;
 }
+
+body.foundation {
+	background: linear-gradient(-20deg, #0b1e3b, #f69174);
+	background-repeat: repeat;
+	  background-position: 30% 30%;
+	  padding-top: 100px;
+	  padding-left: 50px;
+	  padding-right: 50px;
+  }
 
 img {
 	border-radius: 20px;
@@ -23,7 +32,7 @@ img {
 	}
 
 a {
-  color: cornflowerblue;
+  color: #0b1e3b;
 }
 
 a:visited {
@@ -64,8 +73,8 @@ img {
 
 div.content {
 	background-color: white;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
 	padding-top: 20px;
 	padding-bottom: 10px;
 }
