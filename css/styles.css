@@ -3,18 +3,8 @@
 
 /* GLOBALS */
 body {
-  	background-image: url("../images/aus-lizards.jpg");
-	background-repeat: repeat;
-	background-position: 30% 30%;
-	padding: 100px;
-}
-body {
   background: linear-gradient(-20deg, #0b1e3b, #f69174);
-  background-repeat: repeat;
-	background-position: 30% 30%;
-	padding-top: 100px;
-	padding-left: 250px;
-	padding-right: 250px;
+  margin: 0;
 }
 
 img {
@@ -23,7 +13,7 @@ img {
 	}
 
 a {
-  color: cornflowerblue;
+  color: #0b1e3b;
 }
 
 a:visited {
@@ -64,10 +54,14 @@ img {
 
 div.content {
 	background-color: white;
-	padding-left: 50px;
+	margin-top: 160px;
+	margin-left: 220px;
+	margin-right: 220px;
+	margin-bottom: 80px;
+	padding-left: 40px;
 	padding-right: 50px;
 	padding-top: 20px;
-	padding-bottom: 10px;
+	padding-bottom: 20px;
 }
 
 p {
@@ -101,6 +95,7 @@ div.navbar li > a {
 	font-size: 25px;  
   text-transform: uppercase;
   width: 100%;
+  color: rgb(176, 205, 230);
 
 }
 
@@ -118,9 +113,9 @@ header nav li > a.active-page {
 width: 200px;
 position: absolute;
 left: 0;
-bottom: auto;
-padding-top: 40px;
-background-color: linear-gradient(-20deg, #0b1e3b, #f69174);
+margin-bottom: auto;
+margin-right: 25px;
+padding-left: auto;
 }
 
 .sidebar a {
@@ -129,6 +124,7 @@ padding-left: 30px;
 font-size: 20px;
 display: block;
 text-decoration: none;
+color: rgb(176, 205, 230);
 }
 
 .sidebar a:hover {
@@ -147,8 +143,7 @@ color: navy
 }
 
 .gift-gabs-visuals {
-	height: 500px;
-	width: 800px;
+	size: 100%;
 	border-radius: 20px;
 	border: 10px solid white;
 }
