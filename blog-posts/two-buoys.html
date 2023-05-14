@@ -3,57 +3,77 @@
 <head>
 <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/styles.css"/>
 <title>Two Buoys</title>
 </head>
 
 <body>
-<div class="navbar">
-    <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../foundations/about.html">About</a></li>
-        <li><a href="../foundations/lean-arabic.html">Lean Arabic</a></li>
-		<li><a href="../foundations/change-makers.html">Change Makers of Cuba</a></li>
-		<li><a href="../foundations/contact.html">Contact</a></li>
-      </ul>
+	<div class="topnav" id="myTopnav">
+        <a href="../index.html">Gift of the Gabs</a>
+        <a href="../foundations/about.html">About</a>
+        <a href="../foundations/lean-arabic.html">Lean Arabic</a>
+		<a href="../foundations/change-makers.html">Change Makers of Cuba</a>
+		<a href="../foundations/contact.html">Contact</a>
+      	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    	<i class="fa fa-bars"></i></a>
     </div>
 	
-			<div class="sidebar">
-				<nav>
-					<h2 class="blog">Travel blog</h2>
-					<a href="../blog-posts/anzac-storytelling.html">ANZAC Storytelling</a><hr/>
-					<a href="../blog-posts/australia-day-malta.html">Australia Day, Malta</a><hr/>
-					<a href="../blog-posts/cappadocia.html">Cappadocia</a><hr/>
-					<a href="../blog-posts/certified-male.html">Certified Male</a><hr/>
-					<a href="../blog-posts/db-doha.html">Doha Wireless Warriors</a><hr/>
-					<a href="../blog-posts/different-strokes.html">Different Strokes</a><hr/>
-					<a href="../blog-posts/dragons-abreast.html">Dragons Abreast</a><hr/>
-					<a href="../blog-posts/egypt.html">Egypt</a><hr/>
-					<a href="../blog-posts/finland-1.html">Finland I</a><hr/>
-					<a href="../blog-posts/finland-2.html">Finland II</a><hr/>
-					<a href="../blog-posts/japan-1.html">Japan I</a><hr/>
-					<a href="../blog-posts/japan-2.html">Japan II</a><hr/>
-					<a href="../blog-posts/katie-colombo-plan.html">Living remotely</a><hr/>
-					<a href="../blog-posts/malta-choc-factory.html">Malta Chocolate Factory</a>
-					<hr/>
-					<a href="../blog-posts/michela-pace.html">Malta Eurovision</a><hr/>
-					<a href="../blog-posts/orange-sky-laundry.html">Orange Sky Australia</a><hr/>
-					<a href="../blog-posts/tasmania.html">Tasmania</a><hr/>
-					<a href="../blog-posts/thailand.html">Thailand</a><hr/>
-					<a class="active-page" href="../blog-posts/two-buoys.html">Two Buoys</a><hr/>
-					<a href="../blog-posts/zilpah-tart.html">Zilpah Tart</a>
-					<hr/>
-				</nav>
-</div>
+	<nav>
+		<a href="../blog-posts/anzac-storytelling.html">ANZAC Storytelling</a>
+		<a href="../blog-posts/australia-day-malta.html">Australia Day, Malta</a>
+		<a href="../blog-posts/cappadocia.html">Cappadocia</a>
+		<a href="../blog-posts/certified-male.html">Certified Male</a>
+		<a href="../blog-posts/db-doha.html">Doha Wireless Warriors</a>
+		<a href="../blog-posts/different-strokes.html">Different Strokes</a>
+		<a href="../blog-posts/dragons-abreast.html">Dragons Abreast</a>
+		<a href="../blog-posts/egypt.html">Egypt</a>
+		<a href="../blog-posts/finland-1.html">Finland I</a>
+		<a href="../blog-posts/finland-2.html">Finland II</a>
+		<a href="../blog-posts/japan-1.html">Japan I</a>
+		<a href="../blog-posts/japan-2.html">Japan II</a>
+		<a href="../blog-posts/katie-colombo-plan.html">Living remotely</a>
+		<a href="../blog-posts/malta-choc-factory.html">Malta Chocolate Factory</a>		
+		<a href="../blog-posts/michela-pace.html">Malta Eurovision</a>
+		<a href="../blog-posts/orange-sky-laundry.html">Orange Sky Australia</a>
+		<a href="../blog-posts/tasmania.html">Tasmania</a>
+		<a href="../blog-posts/thailand.html">Thailand</a>
+		<a class="active" href="../blog-posts/two-buoys.html">Two Buoys</a>
+		<a href="../blog-posts/zilpah-tart.html">Zilpah Tart</a>	
+	</nav>
 	
 	<div class="content">
 	<h1>Two Buoys</h1>
 <img src="../images/two-buoys.jpg" alt="owner Jesse on the terrace next to an Australian flag and boats on the water" id="header-image">
 		<h2>Where Melbourne Meets Malta</h2>
-		<p>These buoys are not messing around, offering you the brunch you’ve always dreamt of.</p>
+		<p>These buoys are not messing around, offering you the brunch you&#39;ve always dreamt of.</p>
+		<div class="iframe-container">
 		<iframe width="560" height="315" src="https://www.youtube.com/embed/B5J-PrtwF8Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+</div>
+
+<div class="bottom-nav">
+	<ul>
+	  <li><a href="../index.html">Home</a></li>
+	  <li><a href="../foundations/about.html">About</a></li>
+	  <li><a href="../foundations/travel-blog.html">Travel Blog</a></li>
+	  <li><a href="../foundations/lean-arabic.html">Lean Arabic</a></li>
+	  <li><a href="../foundations/change-makers.html">Change Makers of Cuba</a></li>
+	  <li><a href="../foundations/contact.html">Contact</a></li>
+	</ul>
+  </div>
+  
 		<footer class="flexbox-footer">
 	<p>© Gift of the Gabs 2023</p>
 	</footer>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
 	</body></html>
