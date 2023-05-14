@@ -3,20 +3,21 @@
 <head>
 <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/styles.css"/>
 <title>Lean Arabic</title>
 </head>
 
-<body>
-	<div class="navbar">
-      <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../foundations/about.html">About</a></li>
-        <li><a class="active-page" href="../foundations/lean-arabic.html">Lean Arabic</a></li>
-		<li><a href="../foundations/change-makers.html">Change Makers of Cuba</a></li>
-		  <li><a href="../foundations/contact.html">Contact</a></li>
-      </ul>
-    </div>
+<div class="topnav" id="myTopnav">
+	<a href="../index.html">Gift of the Gabs</a>
+    <a href="../foundations/about.html">About</a>
+    <a class="active" href="../foundations/lean-arabic.html">Lean Arabic</a>
+	<a href="../foundations/change-makers.html">Change Makers of Cuba</a>
+	<a href="../foundations/contact.html">Contact</a>
+	<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+</div>
 	<div class="content">
 	<h1>Lean Arabic</h1>
 	<img src="../images/ameje.jpg" alt="group standing in front of a mosque" class="gift-gabs-visuals">
@@ -30,8 +31,28 @@
 <p><a href="https://soundcloud.com/user-893113369/lean-arabic-4-shopping">Lean Arabic – Shopping</a></p>
 	<img src="../images/ameje-spices.jpg" alt="spice selection at a marker in Doha" class="gift-gabs-visuals">
 	</div>
+	<div class="bottom-nav">
+		<ul>
+			<li><a href="../index.html">Home</a></li>
+			<li><a href="../foundations/about.html">About</a></li>
+			<li><a href="../foundations/travel-blog.html">Travel Blog</a></li>
+			<li><a href="../foundations/lean-arabic.html">Lean Arabic</a></li>
+			<li><a href="../foundations/change-makers.html">Change Makers of Cuba</a></li>
+			<li><a href="../foundations/contact.html">Contact</a></li>
+		  </ul>
+	  </div>
 	<footer class="flexbox-footer">
 	<p>© Gift of the Gabs 2023</p>
 	</footer>
+	<script>
+		function myFunction() {
+		  var x = document.getElementById("myTopnav");
+		  if (x.className === "topnav") {
+			x.className += " responsive";
+		  } else {
+			x.className = "topnav";
+		  }
+		}
+		</script>
 </body>
 </html>
