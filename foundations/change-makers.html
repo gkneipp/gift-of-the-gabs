@@ -3,19 +3,19 @@
 <head>
 <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/styles.css"/>
 <title>Change Makers of Cuba</title>
 </head>
 
-<body>
-	<div class="navbar">
-    <ul>
-        <li><a href="../index.html">Home</a></li>
-        <li><a href="../foundations/about.html">About</a></li>
-        <li><a href="../foundations/lean-arabic.html">Lean Arabic</a></li>
-		<li><a class="active-page" href="../foundations/change-makers.html">Change Makers of Cuba</a></li>
-		<li><a href="../foundations/contact.html">Contact</a></li>
-      </ul>
+<div class="topnav" id="myTopnav">
+       <a href="../index.html">Gift of the Gabs</a>
+       <a href="../foundations/about.html">About</a>
+       <a href="../foundations/lean-arabic.html">Lean Arabic</a>
+	   <a class="active" href="../foundations/change-makers.html">Change Makers of Cuba</a>
+	   <a href="../foundations/contact.html">Contact</a>
+	   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		<i class="fa fa-bars"></i></a>
     </div>
 	<div class="content">
 	<h1>Change Makers of Cuba</h1>
@@ -24,9 +24,9 @@
 	<p><img src="../images/change-makers-team.jpg" alt="change makers team photo" class="gift-gabs-visuals">
 <br/><em>Caption: Piotr Battery (videographer), Flora Vidal Marron (director) and Gabrielle Kneipp (production assistant). </em></p>
 <p>We were there to capture and celebrate the agents of change, who grasped their independence and led the social and economic transformation in Cuba.</p>
-	
-<iframe width="560" height="315" src="https://www.youtube.com/embed/h_dCJMAJYTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-		
+<div class="iframe-container">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/h_dCJMAJYTk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 	
 <p>Privatisation is a key element for communist economies to transition toward the free market.  At the end of the &rsquo;80s and beginning of the &rsquo;90s, former communist countries such as Poland, Hungary, Vietnam and China switched over to the free market and more democratic models of governing. But isolated at the other end of the world was Cuba, which continues to remain one of the very few lasting communist states in present-day world.</p>
 <p><img src="../images/change-makers-yuyu.jpg" alt="With Yuyú and her Papa in Old Havana. Making recycled paper by hand is more difficult than producing it industrially, but it is more ecological." class="gift-gabs-visuals">
@@ -48,8 +48,28 @@
 		<em>Caption: With Eduardo on his agroecological farm.</em></p>
 <p>Pictures thanks to Piotr Batory.</p>
 	</div>
+	<div class="bottom-nav">
+		<ul>
+		  <li><a href="../index.html">Home</a></li>
+		  <li><a href="../foundations/about.html">About</a></li>
+		  <li><a href="../foundations/travel-blog.html">Travel Blog</a></li>
+		  <li><a href="../foundations/lean-arabic.html">Lean Arabic</a></li>
+		  <li><a href="../foundations/change-makers.html">Change Makers of Cuba</a></li>
+		  <li><a href="../foundations/contact.html">Contact</a></li>
+		</ul>
+	  </div>
 	<footer class="flexbox-footer">
 	<p>© Gift of the Gabs 2023</p>
 	</footer>
 </body>
+<script>
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+	</script>
 </html>
