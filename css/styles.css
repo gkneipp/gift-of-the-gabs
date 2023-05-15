@@ -3,23 +3,24 @@
 
 /* GLOBALS */
 body {
-  	background-image: url("../images/aus-lizards.jpg");
-	background-repeat: repeat;
-	background-position: 30% 30%;
-	padding: 100px;
+	background: linear-gradient(-20deg, #0b1e3b, #f69174);
 }
-body {
-  background: linear-gradient(-20deg, #0b1e3b, #f69174);
-  background-repeat: repeat;
-	background-position: 30% 30%;
-	padding-top: 20px;
+
+div.content {
+	background-color: white;
 	padding-left: 20px;
 	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
 }
 
 img {
 	border-radius: 20px;
 	border: 10px solid white;
+	width: auto;
 	}
 
 a {
@@ -50,97 +51,9 @@ h1 {
   color: rgb(75, 75, 106);
 }
 h2 {
-  font-family: "Staatliches", cursive;
-
-  }
-
-.blog {
   font-family: "Staatliches";
-padding-left: 20px;
   }
 
-img {
-  max-width: 100%;
-}
-
-div.content {
-	background-color: white;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-p {
-	font-size: 20px;
-}
-/*header section*/
-
-/*NAVBAR STYLES*/
-
-
-div.navbar {
-  position: fixed; 
-  top: 0;
-  background-color: white;
-  border: 5px solid #3F2056;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	
-}
-
-div.navbar li {
-  list-style-type: none;
-  display: inline;
-  padding-right: 1rem;
-	
-}
-
-div.navbar li > a {
-  text-decoration: none;
-	font-size: 25px;  
-  text-transform: uppercase;
-  width: 100%;
-
-}
-
-div.navbar li > a:hover {
-  text-decoration: underline;
-	color: lightcoral;
-}
-
-header nav li > a.active-page {
-	color: #004083;
-}
-
-/* SIDEBAR */
-/*.sidebar {
-width: 200px;
-position: absolute;
-left: 0;
-margin-bottom: auto;
-margin-right: 25px;
-padding-left: auto;
-}
-
-.sidebar a {
-padding-right: 30px;
-padding-left: 30px;
-font-size: 20px;
-display: block;
-text-decoration: none;
-color: rgb(176, 205, 230);
-}
-
-.sidebar a:hover {
-cursor: pointer;
-opacity: .7;
-}
-
-hr {
-color: navy
-}*/
 /* IMAGES */
 
 .header-image {
@@ -149,16 +62,10 @@ color: navy
 }
 
 .gift-gabs-visuals {
-	height: 500px;
-	width: 800px;
+	max-height: 50%;
+	max-width: 50%;
 	border-radius: 20px;
 	border: 10px solid white;
-}
-
-#portrait {
-	height: 50px;
-	width: 30px;
-	align-items: left;
 }
 
 .bottom-nav {
@@ -166,6 +73,8 @@ color: navy
 	padding-top: 15px;
 	padding-bottom: 15px;
 	text-align: center; 
+	margin-left: 20px;
+	margin-right: 20px;
   }
   
 .bottom-nav li {
@@ -175,7 +84,7 @@ color: navy
 	  
   }
   
-	.bottom-nav li > a {
+.bottom-nav li > a {
 	text-decoration: none;
 	font-size: small;
 	color: lightcoral;
@@ -183,7 +92,7 @@ color: navy
   
   }
   
-  .bottom-nav li > a:hover {
+.bottom-nav li > a:hover {
 	text-decoration: underline;
 	  color: coral;
   }
@@ -193,12 +102,11 @@ footer {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
+	font-size: small;
+	margin-left: 20px;
+	margin-right: 20px;
 }
 
-.flexbox-footer {
-	font-size: 6px;
-
-}
 .intro {
 	display: inline-block;
 	background-color: #6DC7D0;
@@ -319,14 +227,15 @@ blockquote {
 	opacity: 0.8;
 }
 .intro .column p {
-	padding-left: 10px;
-	padding-right: 10px;
-	/*text-align: justify;*/
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: justify;
 	line-height: 25px;
 	font-weight: lighter;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
 	width: 80%;
+	margin-top: 4%;
 }
 .button {
 	width: 200px;
@@ -353,6 +262,17 @@ blockquote {
 	color: #FFFFFF;
 	cursor: pointer;
 }
+.intro {
+	display: inline-block;
+	background-color: #6DC7D0;
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+
+.profile {
+	width: 50%;
+}
+
 .copyright {
 	text-align: center;
 	padding-top: 20px;
@@ -364,15 +284,7 @@ blockquote {
 	letter-spacing: 2px;
 	border-top-width: 2px;
 }
-.intro {
-	display: inline-block;
-	background-color: #b78f9b;
-	padding-top: 0px;
-	padding-bottom: 20px;
-}
-.profile {
-	width: 80%;
-}
+
 .gallery .thumbnail .tag {
 	color: #5D5E5D;
 	padding-bottom: 4px;
@@ -382,26 +294,6 @@ blockquote {
 	padding-right: 20px;
 }
 
-.text_column {
-	width: 90%;
-	text-align: justify;
-	padding: 0;
-}
-.intro .column p {
-	width: 80%;
-	margin-left: 0px;
-}
-.text_column {
-	padding-left: 20px;
-}
-.thumbnail {
-	width: 100%;
-}
-.column {
-	width: 90%;
-	margin-top: 0px;
-}
-  
   /* Add a black background color to the top navigation */
   .topnav {
 	background-color: rgb(75, 75, 106);
@@ -598,9 +490,7 @@ blockquote {
 	margin-left: 0px;
 	margin-right: 0px;
 }
-.profile {
-	width: 100%;
-}
+
 .intro .column p {
 	width: 90%;
 	text-align: center;
