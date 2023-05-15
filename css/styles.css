@@ -20,7 +20,7 @@ div.content {
 img {
 	border-radius: 20px;
 	border: 10px solid white;
-	width: auto;
+	width: 100%;
 	}
 
 a {
@@ -62,7 +62,7 @@ h2 {
 }
 
 .gift-gabs-visuals {
-	size: 100%;
+	width: 100%;
 	border-radius: 20px;
 	border: 10px solid white;
 }
@@ -269,7 +269,7 @@ blockquote {
 }
 
 .profile {
-	width: 30%;
+	width: 50%;
 }
 
 .copyright {
