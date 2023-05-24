@@ -4,9 +4,10 @@
 /* GLOBALS */
 body {
 	background: linear-gradient(-20deg, #0b1e3b, #f69174);
+	margin: 0;
 }
 
-div.content {
+.content {
 	background-color: white;
 	padding-left: 20px;
 	padding-right: 20px;
@@ -171,18 +172,17 @@ color: navy
   }
 
 footer {
-	background-color: lavender;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	text-align: center;
 	font-size: small;
-	margin-left: 20px;
-	margin-right: 20px;
+	margin: 0;
+	color: thistle;
 }
 
 .intro {
 	display: inline-block;
-	background-color: #6DC7D0;
+	background-color: lavender;
 }
 
 label {
@@ -296,7 +296,7 @@ blockquote {
 	width: 90%;
 	height: auto;
 	max-width: 400px;
-	max-height: 200px
+	max-height: 200px;
 	opacity: 0.8;
 }
 .intro .column p {
@@ -337,7 +337,7 @@ blockquote {
 }
 .intro {
 	display: inline-block;
-	background-color: #6DC7D0;
+	background-color: lavender;
 	padding-top: 0px;
 	padding-bottom: 20px;
 }
@@ -640,3 +640,28 @@ blockquote {
 	width: 80%;
 }
 }
+
+* {
+	box-sizing: border-box;
+  }
+  
+  .about-column {
+	float: left;
+	width: 50%;
+	padding: 10px;
+	text-align: center;
+	height: auto;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.about-column {
+	  width: 100%;
+	}
+  }
