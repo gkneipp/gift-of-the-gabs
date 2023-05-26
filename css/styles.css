@@ -140,11 +140,14 @@ color: navy
 
 .gift-gabs-visuals {
 	border-radius: 10px;
-	align-content: center;
+}
+
+.social-media-img {
+	border-radius: 10px;
 	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
 }
 
 .caption {
