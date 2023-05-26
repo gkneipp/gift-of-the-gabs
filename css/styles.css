@@ -142,20 +142,6 @@ color: navy
 	border-radius: 10px;
 }
 
-.social-media-img {
-	border-radius: 10px;
-	display: block;
-	margin-left: auto;
-  	margin-right: auto;
-  	width: 50%;
-}
-
-.caption {
-	display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
 .bottom-nav {
 	background-color: white;
 	padding-top: 15px;
