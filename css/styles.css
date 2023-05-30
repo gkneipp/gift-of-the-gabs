@@ -3,7 +3,7 @@
 
 /* GLOBALS */
 body {
-	background: linear-gradient(-20deg, #0b1e3b, #f69174);
+	background: linear-gradient(-44deg, #0b1e3b, #feb49f);
 	margin: 0;
 }
 
@@ -366,6 +366,15 @@ blockquote {
 	padding-left: 20px;
 	padding-right: 20px;
 }
+
+.previous {
+	color: black;
+  }
+  
+  .next {
+	color: black;
+	text-align: right;
+  }
 
   /* Add a black background color to the top navigation */
   .topnav {
