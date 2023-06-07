@@ -5,14 +5,14 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/styles.css"/>
-<title>Tasmania</title>
+<title>Arts Project Australia</title>
 </head>
 
 	<div class="topnav" id="myTopnav">
         <a href="../index.html">Gift of the Gabs</a>
         <a href="../foundations/about.html">About</a>
         <a href="../foundations/lean-arabic.html">Lean Arabic</a>
-	<a href="../foundations/change-makers.html">Change Makers of Cuba</a>
+		<a href="../foundations/change-makers.html">Change Makers of Cuba</a>
 	<div class="dropdown">
 			<button class="dropbtn">Travel Blog 
 			  <i class="fa fa-caret-down"></i>
@@ -20,7 +20,7 @@
 			<div class="dropdown-content">
 				<a href="../blog-posts/anzac-storytelling.html">ANZAC Storytelling</a>
 				<a href="../blog-posts/arts-australia">Arts Project Australia</a>
-				<a href="../blog-posts/australia-day-malta.html">Australia Day, Malta</a>
+                <a href="../blog-posts/australia-day-malta.html">Australia Day, Malta</a>
 				<a href="../blog-posts/cappadocia.html">Cappadocia</a>
 				<a href="../blog-posts/certified-male.html">Certified Male</a>
 				<a href="../blog-posts/db-doha.html">Doha Wireless Warriors</a>
@@ -46,14 +46,16 @@
 			<i class="fa fa-bars"></i>
 		  </a>
     </div>
-	<h1>Touring Tasmania</h1>
-<body>
+    <h1>Arts Project Australia</h1>
+    <body>
+	
 	<div class="content">
-		<img src="../images/tasmania.jpg" alt="gabrielle standing between statues, two in front and one behind her, facing away from the camera" class="gift-gabs-visuals">
-		<p>Just a girl, cruising along the east coast of the Apple Isle, changing flat tyres and running into distant relatives whilst on tour of Port Arthur.</p>
-		<div class="iframe-container">
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/ZyKdH7LiVmM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<p>In May 2019, then Australian High Commissioner to Malta, Julienne Hince, visited Tunisia to explore its rich cultural and artistic heritage, with a delegation of Australian Women in the Arts and Business.</p>
+<p>Sue Roff, Executive Director of non-profit organisation Arts Project Australia met with NGO’s and practicing artists to discuss arts enterprise opportunities for intellectually and physically handicapped artists.</p>
+<div class="iframe-container">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/dZH_bi0_8ds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+    <p>Find out more about what <a href="https://www.artsproject.org.au/about-us/"> Arts Project Australia</a> gets up to in Melbourne!</p>
 </div>
 
 <div class="bottom-nav">
@@ -67,7 +69,7 @@
 	</ul>
   </div>
   
-		<footer class="flexbox-footer">
+	<footer class="flexbox-footer">
 	<p>© Gift of the Gabs 2023</p>
 	</footer>
 	<script>
@@ -80,4 +82,4 @@
 		  }
 		}
 		</script>
-	</body></html>
+		</body></html>
