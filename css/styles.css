@@ -79,10 +79,9 @@ div.navbar {
   top: 0;
   background-color: white;
   border: 5px solid #3F2056;
-	width: 100%;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;	
 }
 
 div.navbar li {
@@ -94,7 +93,7 @@ div.navbar li {
 
 div.navbar li > a {
   text-decoration: none;
-	font-size: 25px;  
+  font-size: 25px;  
   text-transform: uppercase;
   width: 100%;
 
@@ -102,7 +101,7 @@ div.navbar li > a {
 
 div.navbar li > a:hover {
   text-decoration: underline;
-	color: lightcoral;
+  color: lightcoral;
 }
 
 header nav li > a.active-page {
@@ -372,12 +371,21 @@ blockquote {
 }
 
 .previous {
-	color: black;
+	background-color: #250b3b;
+	color: white;
+	display: inline-block;
+  	padding: 8px 16px;
+	align-items: center;
+	margin-top: 30px;
+	margin-right: 10px;
   }
   
   .next {
-	color: black;
-	text-align: right;
+	background-color: #250b3b;
+	color: white;
+	display: inline-block;
+  	padding: 8px 16px;
+	margin-top: 30px;
   }
 
   /* Add a black background color to the top navigation */
