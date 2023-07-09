@@ -44,6 +44,11 @@ ul {
   list-style-type: square;
 }
 
+.date {
+	text-align: right;
+	font-style: italic;
+}
+
 h1 {
   font-family: "Staatliches";
   font-size: 40px;
