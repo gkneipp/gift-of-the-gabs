@@ -159,7 +159,7 @@ color: navy
 .bottom-nav li > a {
 	text-decoration: none;
 	font-size: small;
-	color: lightcoral;
+	color: rgb(75, 75, 106);
 	width: 100%;
   
   }
