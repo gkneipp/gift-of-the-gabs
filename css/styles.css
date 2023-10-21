@@ -504,6 +504,17 @@ blockquote {
 	width: 100%;
 	height: 100%;
   }
+
+  div.scroll-container {
+	background-color: rgb(75, 75, 106);
+	overflow: auto;
+	white-space: nowrap;
+	padding: 10px;
+  }
+  
+  div.scroll-container img {
+	padding: 10px;
+  }
   
 	/* media queries*/
 	@media only screen and (max-width: 500px) {
