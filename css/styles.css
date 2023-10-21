@@ -55,7 +55,19 @@ h1 {
 }
 h2 {
   font-family: "Staatliches";
+  font-size: 35px;
   }
+
+h3 {
+	font-family: "Staatliches";
+	font-size: 30px;
+	}
+
+	h4 {
+		font-family: "Staatliches";
+		font-size: 25px;
+		}
+
 
 img {
   max-width: 100%;
