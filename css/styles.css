@@ -150,6 +150,7 @@ color: navy
 
 .gift-gabs-visuals {
 	border-radius: 10px;
+	justify-content: center;
 }
 
 .bottom-nav {
