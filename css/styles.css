@@ -150,7 +150,9 @@ color: navy
 
 .gift-gabs-visuals {
 	border-radius: 10px;
-	justify-content: center;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 .bottom-nav {
