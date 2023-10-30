@@ -198,8 +198,12 @@ figcaption {
 	background-color: rgb(75, 75, 106);
 	color: white;
 	font-style: italic;
-	padding: 2px;
+	padding: 5px;
 	text-align: center;
+	border-radius: 10px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
   }
 
 .intro {
