@@ -108,6 +108,14 @@ body {
   color: var(--white);
 }
 
+h2 {
+  font-family: "Staatliches";
+  font-size: 35px;
+  padding-top: 15px;
+	padding-bottom: 15px;
+  color: lavenderblush;
+  }
+
 ::-webkit-scrollbar { width: 10px; }
 
 ::-webkit-scrollbar-track {
